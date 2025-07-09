@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "home": "ホーム",
+    "about": "概要",
+    "search": "検索",
+    "apply": "応募",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "welcome": "Medilab へようこそ",
+    "subtitle": "私たちは Bootstrap でウェブサイトを作る才能あるチームです"
+  }
+}

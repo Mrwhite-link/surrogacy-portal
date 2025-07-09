@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "home": "首页",
+    "about": "关于",
+    "search": "筛选",
+    "apply": "申请",
+    "contact": "联系"
+  },
+  "hero": {
+    "welcome": "欢迎来到 Medilab",
+    "subtitle": "我们是一支使用 Bootstrap 构建网站的专业团队"
+  }
+}

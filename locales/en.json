@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "search": "Search",
+    "apply": "Apply",
+    "contact": "Contact",
+    "appointment": "Make an Appointment"
+  },
+  "topbar": {
+    "hours": "Mon-Fri  8:00-17:00"
+  },
+  "hero": {
+    "welcome": "Welcome to Medilab",
+    "subtitle": "Why Choose Medilab?",
+    "learn_more": "Learn More",
+    "card1": { "title": "Qualified Doctors", "desc": "Only certified medical staff." },
+    "card2": { "title": "Modern Equipment",  "desc": "State-of-the-art technology." },
+    "card3": { "title": "24/7 Support",      "desc": "We’re here whenever you need us." }
+  }
+}

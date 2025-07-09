@@ -1,0 +1,13 @@
+# 依赖 & 构建产物
+node_modules/
+.npm-cache/
+.nuxt/
+.output/
+dist/
+
+# IDE 设置
+.vscode/
+.idea/
+
+# 环境变量文件
+.env
