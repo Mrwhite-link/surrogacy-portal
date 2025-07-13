@@ -1,15 +1,61 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// prisma/schema.prisma
+// Learn more: https://pris.ly/d/prisma-schema
 
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
+// 1️⃣ 生成 Prisma Client —— 不再自定义 output
 generator client {
   provider = "prisma-client-js"
-  output   = "../generated/prisma"
 }
 
+// 2️⃣ 数据源 —— 改成 MySQL
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider = "mysql"
+  url      = env("DATABASE_URL")   // .env 里写 mysql://root:pwd@localhost:3306/surrogacy_portal
+}
+
+// 3️⃣ 模型
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String              // bcrypt hash
+  role      Role     @default(USER)
+  paid      Boolean  @default(false)
+
+  donors    Donor[]  @relation("ownerDonors")
+  createdAt DateTime @default(now())
+}
+
+model Donor {
+  id          String   @id @default(cuid())
+  ownerId     String?
+  owner       User?    @relation("ownerDonors", fields: [ownerId], references: [id])
+
+  age         Int
+  height      Int
+  education   String
+
+  bloodType   String?
+  ethnicity   String?
+  medicalHist String?
+  images      Json?
+
+  createdAt   DateTime @default(now())
+}
+
+model Application {
+  id        String   @id @default(cuid())
+  type      ApplicationType
+  data      Json
+  reviewed  Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum ApplicationType {
+  DONOR
+  SURROGATE
 }

@@ -1,6 +1,9 @@
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  modules: ['@sidebase/nuxt-auth'],
 
-  /* 这里已经不再加载 @nuxtjs/i18n。
-     如有其它模块（Tailwind、Prisma…）可继续放在 modules 数组里 */
+  auth: {
+    origin: process.env.AUTH_ORIGIN,
+    enableGlobalAppMiddleware: true,
+    baseURL: '/api/auth'          // ← 只有这 3 行
+  }
 })

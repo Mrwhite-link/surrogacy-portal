@@ -1,0 +1,1529 @@
+0 verbose cli D:\program\nodejs\node.exe D:\program\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.17.0
+3 silly config load:file:D:\program\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\program\surrogacy-portal\.npmrc
+5 silly config load:file:C:\Users\camga\.npmrc
+6 silly config load:file:C:\Users\camga\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm i @types/bcrypt
+8 verbose argv "i" "--save-dev" "@types/bcrypt"
+9 verbose logfile logs-max:10 dir:D:\program\surrogacy-portal\npm-cache\_logs\2025-07-10T10_52_55_157Z-
+10 verbose logfile D:\program\surrogacy-portal\npm-cache\_logs\2025-07-10T10_52_55_157Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @types/bcrypt@*
+16 silly packumentCache full:https://registry.npmjs.org/@types%2fbcrypt cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@types%2fbcrypt 221ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@types%2fbcrypt set size:undefined disposed:false
+19 silly placeDep ROOT @types/bcrypt@5.0.2 OK for:  want: *
+20 silly reify moves {}
+21 silly audit bulk request {
+21 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+21 silly audit   '@auth/core': [ '0.40.0' ],
+21 silly audit   jose: [ '6.0.11', '4.15.9' ],
+21 silly audit   preact: [ '10.24.3', '10.26.9' ],
+21 silly audit   'preact-render-to-string': [ '6.5.11', '5.2.6' ],
+21 silly audit   '@babel/code-frame': [ '7.27.1' ],
+21 silly audit   '@babel/compat-data': [ '7.28.0' ],
+21 silly audit   '@babel/core': [ '7.28.0' ],
+21 silly audit   semver: [ '6.3.1', '7.7.2' ],
+21 silly audit   '@babel/generator': [ '7.28.0' ],
+21 silly audit   '@babel/helper-annotate-as-pure': [ '7.27.3' ],
+21 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+21 silly audit   '@babel/helper-create-class-features-plugin': [ '7.27.1' ],
+21 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+21 silly audit   '@babel/helper-member-expression-to-functions': [ '7.27.1' ],
+21 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+21 silly audit   '@babel/helper-module-transforms': [ '7.27.3' ],
+21 silly audit   '@babel/helper-optimise-call-expression': [ '7.27.1' ],
+21 silly audit   '@babel/helper-plugin-utils': [ '7.27.1' ],
+21 silly audit   '@babel/helper-replace-supers': [ '7.27.1' ],
+21 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.27.1' ],
+21 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+21 silly audit   '@babel/helper-validator-identifier': [ '7.27.1' ],
+21 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+21 silly audit   '@babel/helpers': [ '7.27.6' ],
+21 silly audit   '@babel/parser': [ '7.28.0' ],
+21 silly audit   '@babel/plugin-syntax-jsx': [ '7.27.1' ],
+21 silly audit   '@babel/plugin-syntax-typescript': [ '7.27.1' ],
+21 silly audit   '@babel/plugin-transform-typescript': [ '7.28.0' ],
+21 silly audit   '@babel/runtime': [ '7.27.6' ],
+21 silly audit   '@babel/template': [ '7.27.2' ],
+21 silly audit   '@babel/traverse': [ '7.28.0' ],
+21 silly audit   '@babel/types': [ '7.28.0' ],
+21 silly audit   '@cloudflare/kv-asset-handler': [ '0.4.0' ],
+21 silly audit   mime: [ '3.0.0', '4.0.7' ],
+21 silly audit   '@colors/colors': [ '1.6.0' ],
+21 silly audit   '@dabh/diagnostics': [ '2.0.3' ],
+21 silly audit   '@dependents/detective-less': [ '5.0.1' ],
+21 silly audit   '@emnapi/core': [ '1.4.4' ],
+21 silly audit   '@emnapi/runtime': [ '1.4.4' ],
+21 silly audit   '@emnapi/wasi-threads': [ '1.0.3' ],
+21 silly audit   '@esbuild/aix-ppc64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/android-arm': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/android-arm64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/android-x64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/darwin-arm64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/darwin-x64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/freebsd-arm64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/freebsd-x64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/linux-arm': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/linux-arm64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/linux-ia32': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/linux-loong64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/linux-mips64el': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/linux-ppc64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/linux-riscv64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/linux-s390x': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/linux-x64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/netbsd-arm64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/netbsd-x64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/openbsd-arm64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/openbsd-x64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/openharmony-arm64': [ '0.25.6' ],
+21 silly audit   '@esbuild/sunos-x64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/win32-arm64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/win32-ia32': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@esbuild/win32-x64': [ '0.25.6', '0.25.5' ],
+21 silly audit   '@eslint-community/eslint-utils': [ '4.7.0' ],
+21 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+21 silly audit   '@eslint/config-array': [ '0.21.0' ],
+21 silly audit   'brace-expansion': [ '1.1.12', '2.0.2' ],
+21 silly audit   minimatch: [ '3.1.2', '9.0.5', '5.1.6' ],
+21 silly audit   '@eslint/config-helpers': [ '0.3.0' ],
+21 silly audit   '@eslint/core': [ '0.14.0', '0.15.1' ],
+21 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+21 silly audit   ignore: [ '5.3.2', '7.0.5' ],
+21 silly audit   '@eslint/js': [ '9.30.1' ],
+21 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+21 silly audit   '@eslint/plugin-kit': [ '0.3.3' ],
+21 silly audit   '@fastify/busboy': [ '3.1.1' ],
+21 silly audit   '@humanfs/core': [ '0.19.1' ],
+21 silly audit   '@humanfs/node': [ '0.16.6' ],
+21 silly audit   '@humanwhocodes/retry': [ '0.3.1', '0.4.3' ],
+21 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+21 silly audit   '@intlify/bundle-utils': [ '10.0.1' ],
+21 silly audit   '@intlify/message-compiler': [ '11.1.9', '10.0.7' ],
+21 silly audit   '@intlify/shared': [ '11.1.9', '10.0.7' ],
+21 silly audit   'estree-walker': [ '2.0.2', '3.0.3' ],
+21 silly audit   '@intlify/core': [ '10.0.7' ],
+21 silly audit   '@intlify/core-base': [ '10.0.7' ],
+21 silly audit   '@intlify/h3': [ '0.6.1' ],
+21 silly audit   '@intlify/unplugin-vue-i18n': [ '6.0.8' ],
+21 silly audit   '@intlify/utils': [ '0.13.0' ],
+21 silly audit   '@intlify/vue-i18n-extensions': [ '8.0.0' ],
+21 silly audit   '@ioredis/commands': [ '1.2.0' ],
+21 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+21 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+21 silly audit   '@jridgewell/gen-mapping': [ '0.3.12' ],
+21 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+21 silly audit   '@jridgewell/source-map': [ '0.3.10' ],
+21 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.4' ],
+21 silly audit   '@jridgewell/trace-mapping': [ '0.3.29' ],
+21 silly audit   '@kwsites/file-exists': [ '1.1.1' ],
+21 silly audit   '@kwsites/promise-deferred': [ '1.1.1' ],
+21 silly audit   '@mapbox/node-pre-gyp': [ '2.0.0' ],
+21 silly audit   'detect-libc': [ '2.0.4', '1.0.3' ],
+21 silly audit   '@miyaneee/rollup-plugin-json5': [ '1.2.0' ],
+21 silly audit   '@napi-rs/wasm-runtime': [ '0.2.11' ],
+21 silly audit   '@netlify/binary-info': [ '1.0.0' ],
+21 silly audit   '@netlify/blobs': [ '8.2.0', '9.1.2' ],
+21 silly audit   '@netlify/dev-utils': [ '2.2.0' ],
+21 silly audit   '@netlify/functions': [ '3.1.10' ],
+21 silly audit   'is-stream': [ '4.0.1', '2.0.1', '3.0.0' ],
+21 silly audit   '@netlify/open-api': [ '2.37.0' ],
+21 silly audit   '@netlify/runtime-utils': [ '1.3.1' ],
+21 silly audit   '@netlify/serverless-functions-api': [ '1.41.2', '2.1.3' ],
+21 silly audit   '@netlify/zip-it-and-ship-it': [ '12.2.1' ],
+21 silly audit   esbuild: [ '0.25.5', '0.25.6' ],
+21 silly audit   '@next/env': [ '13.5.11' ],
+21 silly audit   '@next/swc-darwin-arm64': [ '13.5.9' ],
+21 silly audit   '@next/swc-darwin-x64': [ '13.5.9' ],
+21 silly audit   '@next/swc-linux-arm64-gnu': [ '13.5.9' ],
+21 silly audit   '@next/swc-linux-arm64-musl': [ '13.5.9' ],
+21 silly audit   '@next/swc-linux-x64-gnu': [ '13.5.9' ],
+21 silly audit   '@next/swc-linux-x64-musl': [ '13.5.9' ],
+21 silly audit   '@next/swc-win32-arm64-msvc': [ '13.5.9' ],
+21 silly audit   '@next/swc-win32-ia32-msvc': [ '13.5.9' ],
+21 silly audit   '@next/swc-win32-x64-msvc': [ '13.5.9' ],
+21 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+21 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+21 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+21 silly audit   '@nuxt/cli': [ '3.25.1' ],
+21 silly audit   pathe: [ '2.0.3', '1.1.2' ],
+21 silly audit   '@nuxt/devalue': [ '2.0.2' ],
+21 silly audit   '@nuxt/devtools': [ '2.6.2' ],
+21 silly audit   '@nuxt/devtools-kit': [ '2.6.2' ],
+21 silly audit   '@nuxt/devtools-wizard': [ '2.6.2' ],
+21 silly audit   '@nuxt/kit': [ '3.17.6' ],
+21 silly audit   '@nuxt/schema': [ '3.17.6' ],
+21 silly audit   '@nuxt/telemetry': [ '2.6.6' ],
+21 silly audit   '@nuxt/vite-builder': [ '3.17.6' ],
+21 silly audit   '@nuxtjs/i18n': [ '9.5.6' ],
+21 silly audit   '@oxc-parser/binding-darwin-arm64': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-darwin-x64': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-freebsd-x64': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-linux-arm-gnueabihf': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-linux-arm-musleabihf': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-linux-arm64-gnu': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-linux-arm64-musl': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-linux-riscv64-gnu': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-linux-s390x-gnu': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-linux-x64-gnu': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-linux-x64-musl': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-wasm32-wasi': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-win32-arm64-msvc': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-parser/binding-win32-x64-msvc': [ '0.70.0', '0.75.1' ],
+21 silly audit   '@oxc-project/types': [ '0.70.0', '0.60.0', '0.75.1' ],
+21 silly audit   '@vue-macros/common': [ '1.16.1', '3.0.0-beta.15' ],
+21 silly audit   'ast-kit': [ '1.4.3', '2.1.1' ],
+21 silly audit   'ast-walker-scope': [ '0.6.2', '0.8.1' ],
+21 silly audit   'magic-string-ast': [ '0.7.1', '1.0.0' ],
+21 silly audit   'oxc-parser': [ '0.70.0', '0.75.1' ],
+21 silly audit   unplugin: [ '2.3.5', '1.16.1' ],
+21 silly audit   'unplugin-vue-router': [ '0.12.0', '0.14.0' ],
+21 silly audit   '@oxc-parser/binding-android-arm64': [ '0.75.1' ],
+21 silly audit   '@oxc-parser/wasm': [ '0.60.0' ],
+21 silly audit   '@panva/hkdf': [ '1.2.1' ],
+21 silly audit   '@parcel/watcher': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-android-arm64': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-darwin-arm64': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-darwin-x64': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-freebsd-x64': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-linux-arm-glibc': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-linux-arm-musl': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-linux-arm64-glibc': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-linux-arm64-musl': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-linux-x64-glibc': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-linux-x64-musl': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-wasm': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-win32-arm64': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-win32-ia32': [ '2.5.1' ],
+21 silly audit   '@parcel/watcher-win32-x64': [ '2.5.1' ],
+21 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+21 silly audit   '@polka/url': [ '1.0.0-next.29' ],
+21 silly audit   '@poppinss/colors': [ '4.1.5' ],
+21 silly audit   kleur: [ '4.1.5', '3.0.3' ],
+21 silly audit   '@poppinss/dumper': [ '0.6.4' ],
+21 silly audit   '@poppinss/exception': [ '1.2.2' ],
+21 silly audit   '@prisma/client': [ '6.11.1' ],
+21 silly audit   '@prisma/config': [ '6.11.1' ],
+21 silly audit   '@prisma/debug': [ '6.11.1' ],
+21 silly audit   '@prisma/engines': [ '6.11.1' ],
+21 silly audit   '@prisma/engines-version': [ '6.11.1-1.f40f79ec31188888a2e33acda0ecc8fd10a853a9' ],
+21 silly audit   '@prisma/fetch-engine': [ '6.11.1' ],
+21 silly audit   '@prisma/get-platform': [ '6.11.1' ],
+21 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.24' ],
+21 silly audit   '@rollup/plugin-alias': [ '5.1.1' ],
+21 silly audit   '@rollup/plugin-commonjs': [ '28.0.6' ],
+21 silly audit   '@rollup/plugin-inject': [ '5.0.5' ],
+21 silly audit   '@rollup/plugin-json': [ '6.1.0' ],
+21 silly audit   '@rollup/plugin-node-resolve': [ '16.0.1' ],
+21 silly audit   resolve: [ '1.22.10', '2.0.0-next.5' ],
+21 silly audit   '@rollup/plugin-replace': [ '6.0.2' ],
+21 silly audit   '@rollup/plugin-terser': [ '0.4.4' ],
+21 silly audit   '@rollup/plugin-yaml': [ '4.1.2' ],
+21 silly audit   '@rollup/pluginutils': [ '5.2.0' ],
+21 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-android-arm64': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-darwin-arm64': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-darwin-x64': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-freebsd-x64': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.44.2' ],
+21 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.44.2' ],
+21 silly audit   '@sidebase/nuxt-auth': [ '1.0.0' ],
+21 silly audit   '@sindresorhus/is': [ '7.0.2' ],
+21 silly audit   '@sindresorhus/merge-streams': [ '2.3.0' ],
+21 silly audit   '@speed-highlight/core': [ '1.2.7' ],
+21 silly audit   '@swc/helpers': [ '0.5.2' ],
+21 silly audit   '@trysound/sax': [ '0.2.0' ],
+21 silly audit   '@tybys/wasm-util': [ '0.9.0' ],
+21 silly audit   '@types/estree': [ '1.0.8' ],
+21 silly audit   '@types/json-schema': [ '7.0.15' ],
+21 silly audit   '@types/node': [ '24.0.10' ],
+21 silly audit   '@types/normalize-package-data': [ '2.4.4' ],
+21 silly audit   '@types/parse-path': [ '7.0.3' ],
+21 silly audit   '@types/resolve': [ '1.20.2' ],
+21 silly audit   '@types/triple-beam': [ '1.3.5' ],
+21 silly audit   '@types/yauzl': [ '2.10.3' ],
+21 silly audit   '@typescript-eslint/project-service': [ '8.36.0' ],
+21 silly audit   '@typescript-eslint/scope-manager': [ '8.36.0' ],
+21 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.36.0' ],
+21 silly audit   '@typescript-eslint/types': [ '8.36.0' ],
+21 silly audit   '@typescript-eslint/typescript-estree': [ '8.36.0' ],
+21 silly audit   '@typescript-eslint/visitor-keys': [ '8.36.0' ],
+21 silly audit   'eslint-visitor-keys': [ '4.2.1', '3.4.3' ],
+21 silly audit   '@unhead/dom': [ '1.11.20' ],
+21 silly audit   '@unhead/schema': [ '1.11.20' ],
+21 silly audit   '@unhead/shared': [ '1.11.20' ],
+21 silly audit   '@unhead/vue': [ '2.0.12' ],
+21 silly audit   unhead: [ '2.0.12', '1.11.20' ],
+21 silly audit   '@vercel/nft': [ '0.29.4' ],
+21 silly audit   '@vitejs/plugin-vue': [ '5.2.4' ],
+21 silly audit   '@vitejs/plugin-vue-jsx': [ '4.2.0' ],
+21 silly audit   '@vue/babel-helper-vue-transform-on': [ '1.4.0' ],
+21 silly audit   '@vue/babel-plugin-jsx': [ '1.4.0' ],
+21 silly audit   '@vue/babel-plugin-resolve-type': [ '1.4.0' ],
+21 silly audit   '@vue/compiler-core': [ '3.5.17' ],
+21 silly audit   '@vue/compiler-dom': [ '3.5.17' ],
+21 silly audit   '@vue/compiler-sfc': [ '3.5.17' ],
+21 silly audit   '@vue/compiler-ssr': [ '3.5.17' ],
+21 silly audit   '@vue/devtools-api': [ '6.6.4' ],
+21 silly audit   '@vue/devtools-core': [ '7.7.7' ],
+21 silly audit   '@vue/devtools-kit': [ '7.7.7' ],
+21 silly audit   '@vue/devtools-shared': [ '7.7.7' ],
+21 silly audit   '@vue/reactivity': [ '3.5.17' ],
+21 silly audit   '@vue/runtime-core': [ '3.5.17' ],
+21 silly audit   '@vue/runtime-dom': [ '3.5.17' ],
+21 silly audit   '@vue/server-renderer': [ '3.5.17' ],
+21 silly audit   '@vue/shared': [ '3.5.17' ],
+21 silly audit   '@whatwg-node/disposablestack': [ '0.0.6' ],
+21 silly audit   '@whatwg-node/fetch': [ '0.10.8' ],
+21 silly audit   'urlpattern-polyfill': [ '10.1.0', '8.0.2' ],
+21 silly audit   '@whatwg-node/node-fetch': [ '0.7.21' ],
+21 silly audit   '@whatwg-node/promise-helpers': [ '1.3.2' ],
+21 silly audit   '@whatwg-node/server': [ '0.9.71' ],
+21 silly audit   abbrev: [ '3.0.1' ],
+21 silly audit   'abort-controller': [ '3.0.0' ],
+21 silly audit   acorn: [ '8.15.0' ],
+21 silly audit   'acorn-import-attributes': [ '1.9.5' ],
+21 silly audit   'acorn-jsx': [ '5.3.2' ],
+21 silly audit   'agent-base': [ '7.1.4' ],
+21 silly audit   ajv: [ '6.12.6' ],
+21 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+21 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+21 silly audit   ansis: [ '4.1.0' ],
+21 silly audit   anymatch: [ '3.1.3' ],
+21 silly audit   picomatch: [ '2.3.1', '4.0.2' ],
+21 silly audit   archiver: [ '7.0.1' ],
+21 silly audit   'archiver-utils': [ '5.0.2' ],
+21 silly audit   argparse: [ '2.0.1' ],
+21 silly audit   'ast-module-types': [ '6.0.1' ],
+21 silly audit   async: [ '3.2.6' ],
+21 silly audit   'async-sema': [ '3.1.1' ],
+21 silly audit   autoprefixer: [ '10.4.21' ],
+21 silly audit   b4a: [ '1.6.7' ],
+21 silly audit   'balanced-match': [ '1.0.2' ],
+21 silly audit   'bare-events': [ '2.5.4' ],
+21 silly audit   'base64-js': [ '1.5.1' ],
+21 silly audit   bcrypt: [ '6.0.0' ],
+21 silly audit   'node-addon-api': [ '8.4.0', '7.1.1' ],
+21 silly audit   bindings: [ '1.5.0' ],
+21 silly audit   birpc: [ '2.4.0' ],
+21 silly audit   boolbase: [ '1.0.0' ],
+21 silly audit   braces: [ '3.0.3' ],
+21 silly audit   browserslist: [ '4.25.1' ],
+21 silly audit   buffer: [ '6.0.3' ],
+21 silly audit   'buffer-crc32': [ '1.0.0', '0.2.13' ],
+21 silly audit   'buffer-from': [ '1.1.2' ],
+21 silly audit   'builtin-modules': [ '3.3.0' ],
+21 silly audit   'bundle-name': [ '4.1.0' ],
+21 silly audit   busboy: [ '1.6.0' ],
+21 silly audit   c12: [ '3.0.4' ],
+21 silly audit   cac: [ '6.7.14' ],
+21 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+21 silly audit   'call-bound': [ '1.0.4' ],
+21 silly audit   callsite: [ '1.0.0' ],
+21 silly audit   callsites: [ '3.1.0' ],
+21 silly audit   'caniuse-api': [ '3.0.0' ],
+21 silly audit   'caniuse-lite': [ '1.0.30001727' ],
+21 silly audit   chalk: [ '4.1.2' ],
+21 silly audit   'color-convert': [ '2.0.1', '1.9.3' ],
+21 silly audit   'supports-color': [ '7.2.0', '10.0.0' ],
+21 silly audit   chokidar: [ '4.0.3' ],
+21 silly audit   chownr: [ '3.0.0' ],
+21 silly audit   citty: [ '0.1.6' ],
+21 silly audit   'client-only': [ '0.0.1' ],
+21 silly audit   clipboardy: [ '4.0.0' ],
+21 silly audit   cliui: [ '8.0.1' ],
+21 silly audit   'emoji-regex': [ '8.0.0', '9.2.2' ],
+21 silly audit   'string-width': [ '4.2.3', '5.1.2' ],
+21 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+21 silly audit   'wrap-ansi': [ '7.0.0', '8.1.0' ],
+21 silly audit   'cluster-key-slot': [ '1.1.2' ],
+21 silly audit   color: [ '3.2.1' ],
+21 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+21 silly audit   'color-string': [ '1.9.1' ],
+21 silly audit   colord: [ '2.9.3' ],
+21 silly audit   colorspace: [ '1.1.4' ],
+21 silly audit   commander: [ '10.0.1', '12.1.0', '7.2.0', '2.20.3' ],
+21 silly audit   'common-path-prefix': [ '3.0.0' ],
+21 silly audit   commondir: [ '1.0.1' ],
+21 silly audit   compatx: [ '0.2.0' ],
+21 silly audit   'compress-commons': [ '6.0.2' ],
+21 silly audit   'concat-map': [ '0.0.1' ],
+21 silly audit   confbox: [ '0.2.2', '0.1.8' ],
+21 silly audit   consola: [ '3.4.2' ],
+21 silly audit   'convert-source-map': [ '2.0.0' ],
+21 silly audit   cookie: [ '1.0.2', '0.5.0' ],
+21 silly audit   'cookie-es': [ '2.0.0', '1.2.2' ],
+21 silly audit   'copy-anything': [ '3.0.5' ],
+21 silly audit   'copy-file': [ '11.0.0' ],
+21 silly audit   'core-util-is': [ '1.0.3' ],
+21 silly audit   'crc-32': [ '1.2.2' ],
+21 silly audit   'crc32-stream': [ '6.0.0' ],
+21 silly audit   'cron-parser': [ '4.9.0' ],
+21 silly audit   croner: [ '9.1.0' ],
+21 silly audit   'cross-spawn': [ '7.0.6' ],
+21 silly audit   isexe: [ '2.0.0', '3.1.1' ],
+21 silly audit   which: [ '2.0.2', '5.0.0' ],
+21 silly audit   crossws: [ '0.3.5' ],
+21 silly audit   'css-declaration-sorter': [ '7.2.0' ],
+21 silly audit   'css-select': [ '5.2.2' ],
+21 silly audit   'css-tree': [ '2.3.1', '2.2.1' ],
+21 silly audit   'css-what': [ '6.2.2' ],
+21 silly audit   cssesc: [ '3.0.0' ],
+21 silly audit   cssnano: [ '7.0.7' ],
+21 silly audit   'cssnano-preset-default': [ '7.0.7' ],
+21 silly audit   'cssnano-utils': [ '5.0.1' ],
+21 silly audit   csso: [ '5.0.5' ],
+21 silly audit   'mdn-data': [ '2.0.28', '2.0.30' ],
+21 silly audit   csstype: [ '3.1.3' ],
+21 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+21 silly audit   db0: [ '0.3.2' ],
+21 silly audit   debug: [ '4.4.1' ],
+21 silly audit   decache: [ '4.6.2' ],
+21 silly audit   'deep-is': [ '0.1.4' ],
+21 silly audit   deepmerge: [ '4.3.1' ],
+21 silly audit   'default-browser': [ '5.2.1' ],
+21 silly audit   'default-browser-id': [ '5.0.0' ],
+21 silly audit   'define-lazy-prop': [ '2.0.0', '3.0.0' ],
+21 silly audit   defu: [ '6.1.4' ],
+21 silly audit   denque: [ '2.1.0' ],
+21 silly audit   depd: [ '2.0.0' ],
+21 silly audit   destr: [ '2.0.5' ],
+21 silly audit   'detective-amd': [ '6.0.1' ],
+21 silly audit   'detective-cjs': [ '6.0.1' ],
+21 silly audit   'detective-es6': [ '5.0.1' ],
+21 silly audit   'detective-postcss': [ '7.0.1' ],
+21 silly audit   'detective-sass': [ '6.0.1' ],
+21 silly audit   'detective-scss': [ '5.0.1' ],
+21 silly audit   'detective-stylus': [ '5.0.1' ],
+21 silly audit   'detective-typescript': [ '14.0.0' ],
+21 silly audit   'detective-vue2': [ '2.2.0' ],
+21 silly audit   devalue: [ '5.1.1' ],
+21 silly audit   diff: [ '8.0.2' ],
+21 silly audit   'dom-serializer': [ '2.0.0' ],
+21 silly audit   domelementtype: [ '2.3.0' ],
+21 silly audit   domhandler: [ '5.0.3' ],
+21 silly audit   domutils: [ '3.2.2' ],
+21 silly audit   'dot-prop': [ '9.0.0' ],
+21 silly audit   dotenv: [ '16.6.1' ],
+21 silly audit   'dunder-proto': [ '1.0.1' ],
+21 silly audit   duplexer: [ '0.1.2' ],
+21 silly audit   eastasianwidth: [ '0.2.0' ],
+21 silly audit   'ee-first': [ '1.1.1' ],
+21 silly audit   'electron-to-chromium': [ '1.5.180' ],
+21 silly audit   enabled: [ '2.0.0' ],
+21 silly audit   encodeurl: [ '2.0.0' ],
+21 silly audit   'end-of-stream': [ '1.4.5' ],
+21 silly audit   'enhanced-resolve': [ '5.18.2' ],
+21 silly audit   entities: [ '4.5.0' ],
+21 silly audit   'env-paths': [ '3.0.0' ],
+21 silly audit   'error-stack-parser-es': [ '1.0.5' ],
+21 silly audit   errx: [ '0.1.0' ],
+21 silly audit   'es-define-property': [ '1.0.1' ],
+21 silly audit   'es-errors': [ '1.3.0' ],
+21 silly audit   'es-module-lexer': [ '1.7.0' ],
+21 silly audit   'es-object-atoms': [ '1.1.1' ],
+21 silly audit   escalade: [ '3.2.0' ],
+21 silly audit   'escape-html': [ '1.0.3' ],
+21 silly audit   'escape-string-regexp': [ '5.0.0', '4.0.0' ],
+21 silly audit   escodegen: [ '2.1.0' ],
+21 silly audit   eslint: [ '9.30.1' ],
+21 silly audit   'eslint-scope': [ '8.4.0' ],
+21 silly audit   'find-up': [ '5.0.0', '7.0.0' ],
+21 silly audit   'glob-parent': [ '6.0.2', '5.1.2' ],
+21 silly audit   'locate-path': [ '6.0.0', '7.2.0' ],
+21 silly audit   'p-limit': [ '3.1.0', '4.0.0' ],
+21 silly audit   'p-locate': [ '5.0.0', '6.0.0' ],
+21 silly audit   'path-exists': [ '4.0.0', '5.0.0' ],
+21 silly audit   'yocto-queue': [ '0.1.0', '1.2.1' ],
+21 silly audit   espree: [ '10.4.0', '9.6.1' ],
+21 silly audit   esprima: [ '4.0.1' ],
+21 silly audit   esquery: [ '1.6.0' ],
+21 silly audit   esrecurse: [ '4.3.0' ],
+21 silly audit   estraverse: [ '5.3.0' ],
+21 silly audit   esutils: [ '2.0.3' ],
+21 silly audit   etag: [ '1.8.1' ],
+21 silly audit   'event-target-shim': [ '5.0.1' ],
+21 silly audit   events: [ '3.3.0' ],
+21 silly audit   execa: [ '8.0.1' ],
+21 silly audit   exsolve: [ '1.0.7' ],
+21 silly audit   externality: [ '1.0.2' ],
+21 silly audit   'extract-zip': [ '2.0.1' ],
+21 silly audit   'get-stream': [ '5.2.0', '8.0.1' ],
+21 silly audit   'fast-deep-equal': [ '3.1.3' ],
+21 silly audit   'fast-fifo': [ '1.3.2' ],
+21 silly audit   'fast-glob': [ '3.3.3' ],
+21 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+21 silly audit   'fast-levenshtein': [ '2.0.6' ],
+21 silly audit   'fast-npm-meta': [ '0.4.4' ],
+21 silly audit   fastq: [ '1.19.1' ],
+21 silly audit   'fd-slicer': [ '1.1.0' ],
+21 silly audit   fdir: [ '6.4.6' ],
+21 silly audit   fecha: [ '4.2.3' ],
+21 silly audit   'fetch-blob': [ '3.2.0' ],
+21 silly audit   'file-entry-cache': [ '8.0.0' ],
+21 silly audit   'file-uri-to-path': [ '1.0.0' ],
+21 silly audit   'fill-range': [ '7.1.1' ],
+21 silly audit   'filter-obj': [ '6.1.0' ],
+21 silly audit   'find-up-simple': [ '1.0.1' ],
+21 silly audit   'flat-cache': [ '4.0.1' ],
+21 silly audit   flatted: [ '3.3.3' ],
+21 silly audit   'fn.name': [ '1.1.0' ],
+21 silly audit   'foreground-child': [ '3.3.1' ],
+21 silly audit   'formdata-polyfill': [ '4.0.10' ],
+21 silly audit   'fraction.js': [ '4.3.7' ],
+21 silly audit   fresh: [ '2.0.0' ],
+21 silly audit   fsevents: [ '2.3.3' ],
+21 silly audit   'function-bind': [ '1.1.2' ],
+21 silly audit   'fuse.js': [ '7.1.0' ],
+21 silly audit   gensync: [ '1.0.0-beta.2' ],
+21 silly audit   'get-amd-module-type': [ '6.0.1' ],
+21 silly audit   'get-caller-file': [ '2.0.5' ],
+21 silly audit   'get-intrinsic': [ '1.3.0' ],
+21 silly audit   'get-port-please': [ '3.1.2' ],
+21 silly audit   'get-proto': [ '1.0.1' ],
+21 silly audit   giget: [ '2.0.0' ],
+21 silly audit   'git-up': [ '8.1.1' ],
+21 silly audit   'git-url-parse': [ '16.1.0' ],
+21 silly audit   glob: [ '10.4.5' ],
+21 silly audit   'glob-to-regexp': [ '0.4.1' ],
+21 silly audit   'global-directory': [ '4.0.1' ],
+21 silly audit   globals: [ '14.0.0' ],
+21 silly audit   globby: [ '14.1.0' ],
+21 silly audit   'unicorn-magic': [ '0.3.0', '0.1.0' ],
+21 silly audit   'gonzales-pe': [ '4.3.0' ],
+21 silly audit   gopd: [ '1.2.0' ],
+21 silly audit   'graceful-fs': [ '4.2.11' ],
+21 silly audit   'gzip-size': [ '7.0.0' ],
+21 silly audit   h3: [ '1.15.3' ],
+21 silly audit   'has-flag': [ '4.0.0' ],
+21 silly audit   'has-symbols': [ '1.1.0' ],
+21 silly audit   hasown: [ '2.0.2' ],
+21 silly audit   hookable: [ '5.5.3' ],
+21 silly audit   'hosted-git-info': [ '7.0.2' ],
+21 silly audit   'lru-cache': [ '10.4.3', '5.1.1', '6.0.0' ],
+21 silly audit   'http-errors': [ '2.0.0' ],
+21 silly audit   statuses: [ '2.0.1', '2.0.2' ],
+21 silly audit   'http-shutdown': [ '1.2.2' ],
+21 silly audit   'https-proxy-agent': [ '7.0.6' ],
+21 silly audit   httpxy: [ '0.1.7' ],
+21 silly audit   'human-signals': [ '5.0.0' ],
+21 silly audit   ieee754: [ '1.2.1' ],
+21 silly audit   'image-meta': [ '0.2.1' ],
+21 silly audit   'import-fresh': [ '3.3.1' ],
+21 silly audit   'resolve-from': [ '4.0.0', '5.0.0' ],
+21 silly audit   impound: [ '1.0.0' ],
+21 silly audit   imurmurhash: [ '0.1.4' ],
+21 silly audit   'index-to-position': [ '1.1.0' ],
+21 silly audit   inherits: [ '2.0.4' ],
+21 silly audit   ini: [ '4.1.1' ],
+21 silly audit   ioredis: [ '5.6.1' ],
+21 silly audit   'iron-webcrypto': [ '1.2.1' ],
+21 silly audit   'is-arrayish': [ '0.3.2' ],
+21 silly audit   'is-builtin-module': [ '3.2.1' ],
+21 silly audit   'is-core-module': [ '2.16.1' ],
+21 silly audit   'is-docker': [ '3.0.0', '2.2.1' ],
+21 silly audit   'is-extglob': [ '2.1.1' ],
+21 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+21 silly audit   'is-glob': [ '4.0.3' ],
+21 silly audit   'is-inside-container': [ '1.0.0' ],
+21 silly audit   'is-installed-globally': [ '1.0.0' ],
+21 silly audit   'is-module': [ '1.0.0' ],
+21 silly audit   'is-number': [ '7.0.0' ],
+21 silly audit   'is-path-inside': [ '4.0.0' ],
+21 silly audit   'is-plain-obj': [ '2.1.0' ],
+21 silly audit   'is-reference': [ '1.2.1' ],
+21 silly audit   'is-ssh': [ '1.4.1' ],
+21 silly audit   'is-url': [ '1.2.4' ],
+21 silly audit   'is-url-superb': [ '4.0.0' ],
+21 silly audit   'is-what': [ '4.1.16' ],
+21 silly audit   'is-wsl': [ '3.1.0', '2.2.0' ],
+21 silly audit   is64bit: [ '2.0.0' ],
+21 silly audit   isarray: [ '1.0.0' ],
+21 silly audit   jackspeak: [ '3.4.3' ],
+21 silly audit   jiti: [ '2.4.2' ],
+21 silly audit   'js-tokens': [ '4.0.0', '9.0.1' ],
+21 silly audit   'js-yaml': [ '4.1.0' ],
+21 silly audit   jsesc: [ '3.1.0' ],
+21 silly audit   'json-buffer': [ '3.0.1' ],
+21 silly audit   'json-schema-traverse': [ '0.4.1' ],
+21 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+21 silly audit   json5: [ '2.2.3' ],
+21 silly audit   'jsonc-eslint-parser': [ '2.4.0' ],
+21 silly audit   junk: [ '4.0.1' ],
+21 silly audit   'jwt-decode': [ '4.0.0' ],
+21 silly audit   keyv: [ '4.5.4' ],
+21 silly audit   klona: [ '2.0.6' ],
+21 silly audit   knitwork: [ '1.2.0' ],
+21 silly audit   kuler: [ '2.0.0' ],
+21 silly audit   'lambda-local': [ '2.2.0' ],
+21 silly audit   'launch-editor': [ '2.10.0' ],
+21 silly audit   lazystream: [ '1.0.1' ],
+21 silly audit   'readable-stream': [ '2.3.8', '4.7.0', '3.6.2' ],
+21 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+21 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+21 silly audit   levn: [ '0.4.1' ],
+21 silly audit   lilconfig: [ '3.1.3' ],
+21 silly audit   listhen: [ '1.9.0' ],
+21 silly audit   'local-pkg': [ '1.1.1' ],
+21 silly audit   lodash: [ '4.17.21' ],
+21 silly audit   'lodash-es': [ '4.17.21' ],
+21 silly audit   'lodash.debounce': [ '4.0.8' ],
+21 silly audit   'lodash.defaults': [ '4.2.0' ],
+21 silly audit   'lodash.isarguments': [ '3.1.0' ],
+21 silly audit   'lodash.memoize': [ '4.1.2' ],
+21 silly audit   'lodash.merge': [ '4.6.2' ],
+21 silly audit   'lodash.uniq': [ '4.5.0' ],
+21 silly audit   logform: [ '2.7.0' ],
+21 silly audit   'loose-envify': [ '1.4.0' ],
+21 silly audit   luxon: [ '3.6.1' ],
+21 silly audit   'magic-string': [ '0.30.17' ],
+21 silly audit   magicast: [ '0.3.5' ],
+21 silly audit   'math-intrinsics': [ '1.1.0' ],
+21 silly audit   'merge-options': [ '3.0.4' ],
+21 silly audit   'merge-stream': [ '2.0.0' ],
+21 silly audit   merge2: [ '1.4.1' ],
+21 silly audit   'micro-api-client': [ '3.3.0' ],
+21 silly audit   micromatch: [ '4.0.8' ],
+21 silly audit   'mime-db': [ '1.54.0' ],
+21 silly audit   'mime-types': [ '3.0.1' ],
+21 silly audit   'mimic-fn': [ '4.0.0' ],
+21 silly audit   minimist: [ '1.2.8' ],
+21 silly audit   minipass: [ '7.1.2' ],
+21 silly audit   minizlib: [ '3.0.2' ],
+21 silly audit   mitt: [ '3.0.1' ],
+21 silly audit   mkdirp: [ '3.0.1' ],
+21 silly audit   mlly: [ '1.7.4' ],
+21 silly audit   'pkg-types': [ '1.3.1', '2.2.0' ],
+21 silly audit   'mocked-exports': [ '0.1.1' ],
+21 silly audit   'module-definition': [ '6.0.1' ],
+21 silly audit   mrmime: [ '2.0.1' ],
+21 silly audit   ms: [ '2.1.3' ],
+21 silly audit   nanoid: [ '5.1.5', '3.3.11' ],
+21 silly audit   nanotar: [ '0.2.0' ],
+21 silly audit   'natural-compare': [ '1.4.0' ],
+21 silly audit   netlify: [ '13.3.5' ],
+21 silly audit   'node-fetch': [ '3.3.2', '2.7.0' ],
+21 silly audit   next: [ '13.5.11' ],
+21 silly audit   'next-auth': [ '4.21.1' ],
+21 silly audit   uuid: [ '8.3.2', '11.1.0' ],
+21 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+21 silly audit   nitropack: [ '2.11.13' ],
+21 silly audit   'source-map': [ '0.7.4', '0.6.1' ],
+21 silly audit   youch: [ '4.1.0-beta.8', '4.1.0-beta.10' ],
+21 silly audit   'node-domexception': [ '1.0.0' ],
+21 silly audit   'node-fetch-native': [ '1.6.6' ],
+21 silly audit   'node-forge': [ '1.3.1' ],
+21 silly audit   'node-gyp-build': [ '4.8.4' ],
+21 silly audit   'node-mock-http': [ '1.0.1' ],
+21 silly audit   'node-releases': [ '2.0.19' ],
+21 silly audit   'node-source-walk': [ '7.0.1' ],
+21 silly audit   nopt: [ '8.1.0' ],
+21 silly audit   'normalize-package-data': [ '6.0.2' ],
+21 silly audit   'normalize-path': [ '3.0.0', '2.1.1' ],
+21 silly audit   'normalize-range': [ '0.1.2' ],
+21 silly audit   'npm-run-path': [ '5.3.0', '6.0.0' ],
+21 silly audit   'path-key': [ '4.0.0', '3.1.1' ],
+21 silly audit   'nth-check': [ '2.1.1' ],
+21 silly audit   nuxt: [ '3.17.6' ],
+21 silly audit   nypm: [ '0.6.0' ],
+21 silly audit   tinyexec: [ '0.3.2', '1.0.1' ],
+21 silly audit   oauth: [ '0.9.15' ],
+21 silly audit   oauth4webapi: [ '3.5.5' ],
+21 silly audit   'object-hash': [ '2.2.0' ],
+21 silly audit   'object-inspect': [ '1.13.4' ],
+21 silly audit   ofetch: [ '1.4.1' ],
+21 silly audit   ohash: [ '2.0.11' ],
+21 silly audit   'oidc-token-hash': [ '5.1.0' ],
+21 silly audit   'on-change': [ '5.0.1' ],
+21 silly audit   'on-finished': [ '2.4.1' ],
+21 silly audit   once: [ '1.4.0' ],
+21 silly audit   'one-time': [ '1.0.0' ],
+21 silly audit   onetime: [ '6.0.0' ],
+21 silly audit   open: [ '8.4.2', '10.1.2' ],
+21 silly audit   'openid-client': [ '5.7.1' ],
+21 silly audit   yallist: [ '4.0.0', '5.0.0', '3.1.1' ],
+21 silly audit   optionator: [ '0.9.4' ],
+21 silly audit   'p-event': [ '6.0.1' ],
+21 silly audit   'p-map': [ '7.0.3' ],
+21 silly audit   'p-timeout': [ '6.1.4' ],
+21 silly audit   'p-wait-for': [ '5.0.2' ],
+21 silly audit   'package-json-from-dist': [ '1.0.1' ],
+21 silly audit   'package-manager-detector': [ '1.3.0' ],
+21 silly audit   packrup: [ '0.1.2' ],
+21 silly audit   'parent-module': [ '1.0.1' ],
+21 silly audit   'parse-gitignore': [ '2.0.0' ],
+21 silly audit   'parse-json': [ '8.3.0' ],
+21 silly audit   'parse-path': [ '7.1.0' ],
+21 silly audit   'parse-url': [ '9.2.0' ],
+21 silly audit   parseurl: [ '1.3.3' ],
+21 silly audit   'path-parse': [ '1.0.7' ],
+21 silly audit   'path-scurry': [ '1.11.1' ],
+21 silly audit   'path-type': [ '6.0.0' ],
+21 silly audit   pend: [ '1.2.0' ],
+21 silly audit   'perfect-debounce': [ '1.0.0' ],
+21 silly audit   picocolors: [ '1.1.1' ],
+21 silly audit   'postcss-calc': [ '10.1.1' ],
+21 silly audit   'postcss-colormin': [ '7.0.3' ],
+21 silly audit   'postcss-convert-values': [ '7.0.5' ],
+21 silly audit   'postcss-discard-comments': [ '7.0.4' ],
+21 silly audit   'postcss-discard-duplicates': [ '7.0.2' ],
+21 silly audit   'postcss-discard-empty': [ '7.0.1' ],
+21 silly audit   'postcss-discard-overridden': [ '7.0.1' ],
+21 silly audit   'postcss-merge-longhand': [ '7.0.5' ],
+21 silly audit   'postcss-merge-rules': [ '7.0.5' ],
+21 silly audit   'postcss-minify-font-values': [ '7.0.1' ],
+21 silly audit   'postcss-minify-gradients': [ '7.0.1' ],
+21 silly audit   'postcss-minify-params': [ '7.0.3' ],
+21 silly audit   'postcss-minify-selectors': [ '7.0.5' ],
+21 silly audit   'postcss-normalize-charset': [ '7.0.1' ],
+21 silly audit   'postcss-normalize-display-values': [ '7.0.1' ],
+21 silly audit   'postcss-normalize-positions': [ '7.0.1' ],
+21 silly audit   'postcss-normalize-repeat-style': [ '7.0.1' ],
+21 silly audit   'postcss-normalize-string': [ '7.0.1' ],
+21 silly audit   'postcss-normalize-timing-functions': [ '7.0.1' ],
+21 silly audit   'postcss-normalize-unicode': [ '7.0.3' ],
+21 silly audit   'postcss-normalize-url': [ '7.0.1' ],
+21 silly audit   'postcss-normalize-whitespace': [ '7.0.1' ],
+21 silly audit   'postcss-ordered-values': [ '7.0.2' ],
+21 silly audit   'postcss-reduce-initial': [ '7.0.3' ],
+21 silly audit   'postcss-reduce-transforms': [ '7.0.1' ],
+21 silly audit   'postcss-selector-parser': [ '7.1.0' ],
+21 silly audit   'postcss-svgo': [ '7.0.2' ],
+21 silly audit   'postcss-unique-selectors': [ '7.0.4' ],
+21 silly audit   'postcss-value-parser': [ '4.2.0' ],
+21 silly audit   'postcss-values-parser': [ '6.0.2' ],
+21 silly audit   precinct: [ '12.2.0' ],
+21 silly audit   'prelude-ls': [ '1.2.1' ],
+21 silly audit   prettier: [ '3.6.2' ],
+21 silly audit   'pretty-bytes': [ '6.1.1' ],
+21 silly audit   'pretty-format': [ '3.8.0' ],
+21 silly audit   prisma: [ '6.11.1' ],
+21 silly audit   process: [ '0.11.10' ],
+21 silly audit   'process-nextick-args': [ '2.0.1' ],
+21 silly audit   prompts: [ '2.4.2' ],
+21 silly audit   protocols: [ '2.0.2' ],
+21 silly audit   pump: [ '3.0.3' ],
+21 silly audit   punycode: [ '2.3.1' ],
+21 silly audit   qs: [ '6.14.0' ],
+21 silly audit   quansync: [ '0.2.10' ],
+21 silly audit   'queue-microtask': [ '1.2.3' ],
+21 silly audit   'quote-unquote': [ '1.0.0' ],
+21 silly audit   radix3: [ '1.1.2' ],
+21 silly audit   randombytes: [ '2.1.0' ],
+21 silly audit   'range-parser': [ '1.2.1' ],
+21 silly audit   rc9: [ '2.1.2' ],
+21 silly audit   react: [ '18.3.1' ],
+21 silly audit   'react-dom': [ '18.3.1' ],
+21 silly audit   'read-package-up': [ '11.0.0' ],
+21 silly audit   'read-pkg': [ '9.0.1' ],
+21 silly audit   'readdir-glob': [ '1.1.3' ],
+21 silly audit   readdirp: [ '4.1.2' ],
+21 silly audit   'redis-errors': [ '1.2.0' ],
+21 silly audit   'redis-parser': [ '3.0.0' ],
+21 silly audit   'remove-trailing-separator': [ '1.1.0' ],
+21 silly audit   'require-directory': [ '2.1.1' ],
+21 silly audit   'require-package-name': [ '2.0.1' ],
+21 silly audit   requrl: [ '3.0.2' ],
+21 silly audit   reusify: [ '1.1.0' ],
+21 silly audit   rfdc: [ '1.4.1' ],
+21 silly audit   rollup: [ '4.44.2' ],
+21 silly audit   'rollup-plugin-visualizer': [ '6.0.3' ],
+21 silly audit   'run-applescript': [ '7.0.0' ],
+21 silly audit   'run-parallel': [ '1.2.0' ],
+21 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+21 silly audit   scheduler: [ '0.23.2' ],
+21 silly audit   scule: [ '1.3.0' ],
+21 silly audit   send: [ '1.2.0' ],
+21 silly audit   'serialize-javascript': [ '6.0.2' ],
+21 silly audit   'serve-placeholder': [ '2.0.2' ],
+21 silly audit   'serve-static': [ '2.2.0' ],
+21 silly audit   setprototypeof: [ '1.2.0' ],
+21 silly audit   'shebang-command': [ '2.0.0' ],
+21 silly audit   'shebang-regex': [ '3.0.0' ],
+21 silly audit   'shell-quote': [ '1.8.3' ],
+21 silly audit   'side-channel': [ '1.1.0' ],
+21 silly audit   'side-channel-list': [ '1.0.0' ],
+21 silly audit   'side-channel-map': [ '1.0.1' ],
+21 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+21 silly audit   'signal-exit': [ '4.1.0' ],
+21 silly audit   'simple-git': [ '3.28.0' ],
+21 silly audit   'simple-swizzle': [ '0.2.2' ],
+21 silly audit   sirv: [ '3.0.1' ],
+21 silly audit   sisteransi: [ '1.0.5' ],
+21 silly audit   slash: [ '5.1.0' ],
+21 silly audit   smob: [ '1.5.0' ],
+21 silly audit   'source-map-js': [ '1.2.1' ],
+21 silly audit   'source-map-support': [ '0.5.21' ],
+21 silly audit   'spdx-correct': [ '3.2.0' ],
+21 silly audit   'spdx-exceptions': [ '2.5.0' ],
+21 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+21 silly audit   'spdx-license-ids': [ '3.0.21' ],
+21 silly audit   speakingurl: [ '14.0.1' ],
+21 silly audit   'stack-trace': [ '0.0.10' ],
+21 silly audit   'standard-as-callback': [ '2.1.0' ],
+21 silly audit   'std-env': [ '3.9.0' ],
+21 silly audit   streamsearch: [ '1.1.0' ],
+21 silly audit   streamx: [ '2.22.1' ],
+21 silly audit   'strip-final-newline': [ '3.0.0' ],
+21 silly audit   'strip-json-comments': [ '3.1.1' ],
+21 silly audit   'strip-literal': [ '3.0.0' ],
+21 silly audit   stripe: [ '18.3.0' ],
+21 silly audit   'structured-clone-es': [ '1.0.0' ],
+21 silly audit   'styled-jsx': [ '5.1.1' ],
+21 silly audit   stylehacks: [ '7.0.5' ],
+21 silly audit   superjson: [ '2.2.2' ],
+21 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+21 silly audit   svgo: [ '3.3.2' ],
+21 silly audit   'system-architecture': [ '0.1.0' ],
+21 silly audit   tapable: [ '2.2.2' ],
+21 silly audit   tar: [ '7.4.3' ],
+21 silly audit   'tar-stream': [ '3.1.7' ],
+21 silly audit   terser: [ '5.43.1' ],
+21 silly audit   'text-decoder': [ '1.2.3' ],
+21 silly audit   'text-hex': [ '1.0.0' ],
+21 silly audit   'tiny-invariant': [ '1.3.3' ],
+21 silly audit   tinyglobby: [ '0.2.14' ],
+21 silly audit   tmp: [ '0.2.3' ],
+21 silly audit   'tmp-promise': [ '3.0.3' ],
+21 silly audit   'to-regex-range': [ '5.0.1' ],
+21 silly audit   toidentifier: [ '1.0.1' ],
+21 silly audit   toml: [ '3.0.0' ],
+21 silly audit   tosource: [ '2.0.0-alpha.3' ],
+21 silly audit   totalist: [ '3.0.1' ],
+21 silly audit   tr46: [ '0.0.3' ],
+21 silly audit   'triple-beam': [ '1.4.1' ],
+21 silly audit   'ts-api-utils': [ '2.1.0' ],
+21 silly audit   tslib: [ '2.8.1' ],
+21 silly audit   'type-check': [ '0.4.0' ],
+21 silly audit   'type-fest': [ '4.41.0' ],
+21 silly audit   typescript: [ '5.8.3' ],
+21 silly audit   ufo: [ '1.6.1' ],
+21 silly audit   ultrahtml: [ '1.6.0' ],
+21 silly audit   uncrypto: [ '0.1.3' ],
+21 silly audit   unctx: [ '2.4.1' ],
+21 silly audit   'undici-types': [ '7.8.0' ],
+21 silly audit   unenv: [ '2.0.0-rc.18' ],
+21 silly audit   unimport: [ '5.1.0' ],
+21 silly audit   unixify: [ '1.0.0' ],
+21 silly audit   'unplugin-utils': [ '0.2.4' ],
+21 silly audit   unstorage: [ '1.16.0' ],
+21 silly audit   untun: [ '0.1.3' ],
+21 silly audit   untyped: [ '2.0.0' ],
+21 silly audit   unwasm: [ '0.3.9' ],
+21 silly audit   'update-browserslist-db': [ '1.1.3' ],
+21 silly audit   uqr: [ '0.1.2' ],
+21 silly audit   'uri-js': [ '4.4.1' ],
+21 silly audit   'util-deprecate': [ '1.0.2' ],
+21 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+21 silly audit   vite: [ '6.3.5' ],
+21 silly audit   'vite-dev-rpc': [ '1.1.0' ],
+21 silly audit   'vite-hot-client': [ '2.1.0' ],
+21 silly audit   'vite-node': [ '3.2.4' ],
+21 silly audit   'vite-plugin-checker': [ '0.9.3' ],
+21 silly audit   'vite-plugin-inspect': [ '11.3.0' ],
+21 silly audit   'vite-plugin-vue-tracer': [ '1.0.0' ],
+21 silly audit   'vscode-uri': [ '3.1.0' ],
+21 silly audit   vue: [ '3.5.17' ],
+21 silly audit   'vue-bundle-renderer': [ '2.1.1' ],
+21 silly audit   'vue-devtools-stub': [ '0.1.0' ],
+21 silly audit   'vue-i18n': [ '10.0.7' ],
+21 silly audit   'vue-router': [ '4.5.1' ],
+21 silly audit   watchpack: [ '2.4.0' ],
+21 silly audit   'web-streams-polyfill': [ '3.3.3' ],
+21 silly audit   'webidl-conversions': [ '3.0.1' ],
+21 silly audit   'webpack-virtual-modules': [ '0.6.2' ],
+21 silly audit   'whatwg-url': [ '5.0.0' ],
+21 silly audit   winston: [ '3.17.0' ],
+21 silly audit   'winston-transport': [ '4.9.0' ],
+21 silly audit   'word-wrap': [ '1.2.5' ],
+21 silly audit   wrappy: [ '1.0.2' ],
+21 silly audit   'write-file-atomic': [ '6.0.0' ],
+21 silly audit   ws: [ '8.18.3' ],
+21 silly audit   y18n: [ '5.0.8' ],
+21 silly audit   yaml: [ '2.8.0' ],
+21 silly audit   'yaml-eslint-parser': [ '1.3.0' ],
+21 silly audit   yargs: [ '17.7.2' ],
+21 silly audit   'yargs-parser': [ '21.1.1' ],
+21 silly audit   yauzl: [ '2.10.0' ],
+21 silly audit   'youch-core': [ '0.3.3' ],
+21 silly audit   zhead: [ '2.2.4' ],
+21 silly audit   'zip-stream': [ '6.0.1' ],
+21 silly audit   zod: [ '3.25.76' ],
+21 silly audit   '@types/bcrypt': [ '5.0.2' ],
+21 silly audit   'napi-wasm': [ '1.1.0' ]
+21 silly audit }
+22 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\fsevents
+23 silly reify mark deleted [ 'D:\\program\\surrogacy-portal\\node_modules\\fsevents' ]
+24 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-win32-ia32-msvc
+25 silly reify mark deleted [
+25 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+25 silly reify ]
+26 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-win32-arm64-msvc
+27 silly reify mark deleted [
+27 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+27 silly reify ]
+28 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-x64-musl
+29 silly reify mark deleted [
+29 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-x64-musl'
+29 silly reify ]
+30 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-x64-gnu
+31 silly reify mark deleted [
+31 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+31 silly reify ]
+32 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-s390x-gnu
+33 silly reify mark deleted [
+33 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+33 silly reify ]
+34 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-riscv64-musl
+35 silly reify mark deleted [
+35 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+35 silly reify ]
+36 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-riscv64-gnu
+37 silly reify mark deleted [
+37 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+37 silly reify ]
+38 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-powerpc64le-gnu
+39 silly reify mark deleted [
+39 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-powerpc64le-gnu'
+39 silly reify ]
+40 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-loongarch64-gnu
+41 silly reify mark deleted [
+41 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-loongarch64-gnu'
+41 silly reify ]
+42 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-arm64-musl
+43 silly reify mark deleted [
+43 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+43 silly reify ]
+44 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-arm64-gnu
+45 silly reify mark deleted [
+45 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+45 silly reify ]
+46 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-arm-musleabihf
+47 silly reify mark deleted [
+47 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+47 silly reify ]
+48 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-linux-arm-gnueabihf
+49 silly reify mark deleted [
+49 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+49 silly reify ]
+50 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-freebsd-x64
+51 silly reify mark deleted [
+51 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-freebsd-x64'
+51 silly reify ]
+52 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-freebsd-arm64
+53 silly reify mark deleted [
+53 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-freebsd-arm64'
+53 silly reify ]
+54 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-darwin-x64
+55 silly reify mark deleted [
+55 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-darwin-x64'
+55 silly reify ]
+56 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-darwin-arm64
+57 silly reify mark deleted [
+57 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-darwin-arm64'
+57 silly reify ]
+58 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-android-arm64
+59 silly reify mark deleted [
+59 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-android-arm64'
+59 silly reify ]
+60 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@rollup\rollup-android-arm-eabi
+61 silly reify mark deleted [
+61 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@rollup\\rollup-android-arm-eabi'
+61 silly reify ]
+62 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-win32-ia32
+63 silly reify mark deleted [
+63 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-win32-ia32'
+63 silly reify ]
+64 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-win32-arm64
+65 silly reify mark deleted [
+65 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-win32-arm64'
+65 silly reify ]
+66 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-linux-x64-musl
+67 silly reify mark deleted [
+67 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-linux-x64-musl'
+67 silly reify ]
+68 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-linux-x64-glibc
+69 silly reify mark deleted [
+69 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-linux-x64-glibc'
+69 silly reify ]
+70 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-linux-arm64-musl
+71 silly reify mark deleted [
+71 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-linux-arm64-musl'
+71 silly reify ]
+72 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-linux-arm64-glibc
+73 silly reify mark deleted [
+73 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-linux-arm64-glibc'
+73 silly reify ]
+74 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-linux-arm-musl
+75 silly reify mark deleted [
+75 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-linux-arm-musl'
+75 silly reify ]
+76 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-linux-arm-glibc
+77 silly reify mark deleted [
+77 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-linux-arm-glibc'
+77 silly reify ]
+78 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-freebsd-x64
+79 silly reify mark deleted [
+79 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-freebsd-x64'
+79 silly reify ]
+80 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-darwin-x64
+81 silly reify mark deleted [
+81 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-darwin-x64'
+81 silly reify ]
+82 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-darwin-arm64
+83 silly reify mark deleted [
+83 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-darwin-arm64'
+83 silly reify ]
+84 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@parcel\watcher-android-arm64
+85 silly reify mark deleted [
+85 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@parcel\\watcher-android-arm64'
+85 silly reify ]
+86 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-win32-arm64-msvc
+87 silly reify mark deleted [
+87 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-win32-arm64-msvc'
+87 silly reify ]
+88 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-wasm32-wasi
+89 silly reify mark deleted [
+89 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-wasm32-wasi'
+89 silly reify ]
+90 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-linux-x64-musl
+91 silly reify mark deleted [
+91 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-linux-x64-musl'
+91 silly reify ]
+92 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-linux-x64-gnu
+93 silly reify mark deleted [
+93 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-linux-x64-gnu'
+93 silly reify ]
+94 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-linux-s390x-gnu
+95 silly reify mark deleted [
+95 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-linux-s390x-gnu'
+95 silly reify ]
+96 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-linux-riscv64-gnu
+97 silly reify mark deleted [
+97 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-linux-riscv64-gnu'
+97 silly reify ]
+98 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-linux-arm64-musl
+99 silly reify mark deleted [
+99 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-linux-arm64-musl'
+99 silly reify ]
+100 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-linux-arm64-gnu
+101 silly reify mark deleted [
+101 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-linux-arm64-gnu'
+101 silly reify ]
+102 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-linux-arm-musleabihf
+103 silly reify mark deleted [
+103 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-linux-arm-musleabihf'
+103 silly reify ]
+104 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-linux-arm-gnueabihf
+105 silly reify mark deleted [
+105 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-linux-arm-gnueabihf'
+105 silly reify ]
+106 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-freebsd-x64
+107 silly reify mark deleted [
+107 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-freebsd-x64'
+107 silly reify ]
+108 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-darwin-x64
+109 silly reify mark deleted [
+109 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-darwin-x64'
+109 silly reify ]
+110 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-darwin-arm64
+111 silly reify mark deleted [
+111 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-darwin-arm64'
+111 silly reify ]
+112 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@oxc-parser\binding-android-arm64
+113 silly reify mark deleted [
+113 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@oxc-parser\\binding-android-arm64'
+113 silly reify ]
+114 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@next\swc-win32-ia32-msvc
+115 silly reify mark deleted [
+115 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@next\\swc-win32-ia32-msvc'
+115 silly reify ]
+116 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@next\swc-win32-arm64-msvc
+117 silly reify mark deleted [
+117 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@next\\swc-win32-arm64-msvc'
+117 silly reify ]
+118 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@next\swc-linux-x64-musl
+119 silly reify mark deleted [
+119 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@next\\swc-linux-x64-musl'
+119 silly reify ]
+120 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@next\swc-linux-x64-gnu
+121 silly reify mark deleted [
+121 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@next\\swc-linux-x64-gnu'
+121 silly reify ]
+122 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@next\swc-linux-arm64-musl
+123 silly reify mark deleted [
+123 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@next\\swc-linux-arm64-musl'
+123 silly reify ]
+124 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@next\swc-linux-arm64-gnu
+125 silly reify mark deleted [
+125 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@next\\swc-linux-arm64-gnu'
+125 silly reify ]
+126 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@next\swc-darwin-x64
+127 silly reify mark deleted [
+127 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@next\\swc-darwin-x64'
+127 silly reify ]
+128 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@next\swc-darwin-arm64
+129 silly reify mark deleted [
+129 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@next\\swc-darwin-arm64'
+129 silly reify ]
+130 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\win32-ia32
+131 silly reify mark deleted [ 'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\win32-ia32' ]
+132 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\win32-arm64
+133 silly reify mark deleted [
+133 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\win32-arm64'
+133 silly reify ]
+134 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\sunos-x64
+135 silly reify mark deleted [ 'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\sunos-x64' ]
+136 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\openharmony-arm64
+137 silly reify mark deleted [
+137 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\openharmony-arm64'
+137 silly reify ]
+138 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\openbsd-x64
+139 silly reify mark deleted [
+139 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\openbsd-x64'
+139 silly reify ]
+140 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\openbsd-arm64
+141 silly reify mark deleted [
+141 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\openbsd-arm64'
+141 silly reify ]
+142 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\netbsd-x64
+143 silly reify mark deleted [ 'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\netbsd-x64' ]
+144 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\netbsd-arm64
+145 silly reify mark deleted [
+145 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\netbsd-arm64'
+145 silly reify ]
+146 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\linux-x64
+147 silly reify mark deleted [ 'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\linux-x64' ]
+148 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\linux-s390x
+149 silly reify mark deleted [
+149 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\linux-s390x'
+149 silly reify ]
+150 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\linux-riscv64
+151 silly reify mark deleted [
+151 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\linux-riscv64'
+151 silly reify ]
+152 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\linux-ppc64
+153 silly reify mark deleted [
+153 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\linux-ppc64'
+153 silly reify ]
+154 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\linux-mips64el
+155 silly reify mark deleted [
+155 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\linux-mips64el'
+155 silly reify ]
+156 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\linux-loong64
+157 silly reify mark deleted [
+157 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\linux-loong64'
+157 silly reify ]
+158 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\linux-ia32
+159 silly reify mark deleted [ 'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\linux-ia32' ]
+160 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\linux-arm64
+161 silly reify mark deleted [
+161 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\linux-arm64'
+161 silly reify ]
+162 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\linux-arm
+163 silly reify mark deleted [ 'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\linux-arm' ]
+164 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\freebsd-x64
+165 silly reify mark deleted [
+165 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\freebsd-x64'
+165 silly reify ]
+166 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\freebsd-arm64
+167 silly reify mark deleted [
+167 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\freebsd-arm64'
+167 silly reify ]
+168 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\darwin-x64
+169 silly reify mark deleted [ 'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\darwin-x64' ]
+170 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\darwin-arm64
+171 silly reify mark deleted [
+171 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\darwin-arm64'
+171 silly reify ]
+172 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\android-x64
+173 silly reify mark deleted [
+173 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\android-x64'
+173 silly reify ]
+174 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\android-arm64
+175 silly reify mark deleted [
+175 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\android-arm64'
+175 silly reify ]
+176 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\android-arm
+177 silly reify mark deleted [
+177 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\android-arm'
+177 silly reify ]
+178 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@esbuild\aix-ppc64
+179 silly reify mark deleted [ 'D:\\program\\surrogacy-portal\\node_modules\\@esbuild\\aix-ppc64' ]
+180 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-win32-arm64-msvc
+181 silly reify mark deleted [
+181 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-win32-arm64-msvc'
+181 silly reify ]
+182 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-wasm32-wasi
+183 silly reify mark deleted [
+183 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-wasm32-wasi'
+183 silly reify ]
+184 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-linux-x64-musl
+185 silly reify mark deleted [
+185 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-linux-x64-musl'
+185 silly reify ]
+186 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-linux-x64-gnu
+187 silly reify mark deleted [
+187 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-linux-x64-gnu'
+187 silly reify ]
+188 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-linux-s390x-gnu
+189 silly reify mark deleted [
+189 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-linux-s390x-gnu'
+189 silly reify ]
+190 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-linux-riscv64-gnu
+191 silly reify mark deleted [
+191 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-linux-riscv64-gnu'
+191 silly reify ]
+192 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-linux-arm64-musl
+193 silly reify mark deleted [
+193 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-linux-arm64-musl'
+193 silly reify ]
+194 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-linux-arm64-gnu
+195 silly reify mark deleted [
+195 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-linux-arm64-gnu'
+195 silly reify ]
+196 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-linux-arm-musleabihf
+197 silly reify mark deleted [
+197 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-linux-arm-musleabihf'
+197 silly reify ]
+198 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-linux-arm-gnueabihf
+199 silly reify mark deleted [
+199 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-linux-arm-gnueabihf'
+199 silly reify ]
+200 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-freebsd-x64
+201 silly reify mark deleted [
+201 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-freebsd-x64'
+201 silly reify ]
+202 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-darwin-x64
+203 silly reify mark deleted [
+203 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-darwin-x64'
+203 silly reify ]
+204 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@nuxtjs\i18n\node_modules\@oxc-parser\binding-darwin-arm64
+205 silly reify mark deleted [
+205 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@nuxtjs\\i18n\\node_modules\\@oxc-parser\\binding-darwin-arm64'
+205 silly reify ]
+206 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\win32-ia32
+207 silly reify mark deleted [
+207 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\win32-ia32'
+207 silly reify ]
+208 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\win32-arm64
+209 silly reify mark deleted [
+209 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\win32-arm64'
+209 silly reify ]
+210 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\sunos-x64
+211 silly reify mark deleted [
+211 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\sunos-x64'
+211 silly reify ]
+212 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\openbsd-x64
+213 silly reify mark deleted [
+213 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\openbsd-x64'
+213 silly reify ]
+214 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\openbsd-arm64
+215 silly reify mark deleted [
+215 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\openbsd-arm64'
+215 silly reify ]
+216 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\netbsd-x64
+217 silly reify mark deleted [
+217 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\netbsd-x64'
+217 silly reify ]
+218 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\netbsd-arm64
+219 silly reify mark deleted [
+219 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\netbsd-arm64'
+219 silly reify ]
+220 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\linux-x64
+221 silly reify mark deleted [
+221 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\linux-x64'
+221 silly reify ]
+222 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\linux-s390x
+223 silly reify mark deleted [
+223 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\linux-s390x'
+223 silly reify ]
+224 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\linux-riscv64
+225 silly reify mark deleted [
+225 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\linux-riscv64'
+225 silly reify ]
+226 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\linux-ppc64
+227 silly reify mark deleted [
+227 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\linux-ppc64'
+227 silly reify ]
+228 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\linux-mips64el
+229 silly reify mark deleted [
+229 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\linux-mips64el'
+229 silly reify ]
+230 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\linux-loong64
+231 silly reify mark deleted [
+231 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\linux-loong64'
+231 silly reify ]
+232 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\linux-ia32
+233 silly reify mark deleted [
+233 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\linux-ia32'
+233 silly reify ]
+234 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\linux-arm64
+235 silly reify mark deleted [
+235 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\linux-arm64'
+235 silly reify ]
+236 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\linux-arm
+237 silly reify mark deleted [
+237 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\linux-arm'
+237 silly reify ]
+238 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\freebsd-x64
+239 silly reify mark deleted [
+239 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\freebsd-x64'
+239 silly reify ]
+240 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\freebsd-arm64
+241 silly reify mark deleted [
+241 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\freebsd-arm64'
+241 silly reify ]
+242 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\darwin-x64
+243 silly reify mark deleted [
+243 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\darwin-x64'
+243 silly reify ]
+244 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\darwin-arm64
+245 silly reify mark deleted [
+245 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\darwin-arm64'
+245 silly reify ]
+246 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\android-x64
+247 silly reify mark deleted [
+247 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\android-x64'
+247 silly reify ]
+248 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\android-arm64
+249 silly reify mark deleted [
+249 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\android-arm64'
+249 silly reify ]
+250 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\android-arm
+251 silly reify mark deleted [
+251 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\android-arm'
+251 silly reify ]
+252 verbose reify failed optional dependency D:\program\surrogacy-portal\node_modules\@netlify\zip-it-and-ship-it\node_modules\@esbuild\aix-ppc64
+253 silly reify mark deleted [
+253 silly reify   'D:\\program\\surrogacy-portal\\node_modules\\@netlify\\zip-it-and-ship-it\\node_modules\\@esbuild\\aix-ppc64'
+253 silly reify ]
+254 http cache @types/bcrypt@https://registry.npmjs.org/@types/bcrypt/-/bcrypt-5.0.2.tgz 0ms (cache hit)
+255 silly tarball no local data for @types/bcrypt@https://registry.npmjs.org/@types/bcrypt/-/bcrypt-5.0.2.tgz. Extracting by manifest.
+256 http fetch GET 200 https://registry.npmjs.org/@types/bcrypt/-/bcrypt-5.0.2.tgz 102ms (cache miss)
+257 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 241ms
+258 silly audit report {
+258 silly audit report   cookie: [
+258 silly audit report     {
+258 silly audit report       id: 1103907,
+258 silly audit report       url: 'https://github.com/advisories/GHSA-pxg6-pf52-xh8x',
+258 silly audit report       title: 'cookie accepts cookie name, path, and domain with out of bounds characters',
+258 silly audit report       severity: 'low',
+258 silly audit report       vulnerable_versions: '<0.7.0',
+258 silly audit report       cwe: [Array],
+258 silly audit report       cvss: [Object]
+258 silly audit report     }
+258 silly audit report   ],
+258 silly audit report   next: [
+258 silly audit report     {
+258 silly audit report       id: 1100421,
+258 silly audit report       url: 'https://github.com/advisories/GHSA-g77x-44xx-532m',
+258 silly audit report       title: 'Denial of Service condition in Next.js image optimization',
+258 silly audit report       severity: 'moderate',
+258 silly audit report       vulnerable_versions: '>=10.0.0 <14.2.7',
+258 silly audit report       cwe: [Array],
+258 silly audit report       cvss: [Object]
+258 silly audit report     },
+258 silly audit report     {
+258 silly audit report       id: 1101380,
+258 silly audit report       url: 'https://github.com/advisories/GHSA-7gfc-8cq8-jh5f',
+258 silly audit report       title: 'Next.js authorization bypass vulnerability',
+258 silly audit report       severity: 'high',
+258 silly audit report       vulnerable_versions: '>=9.5.5 <14.2.15',
+258 silly audit report       cwe: [Array],
+258 silly audit report       cvss: [Object]
+258 silly audit report     },
+258 silly audit report     {
+258 silly audit report       id: 1104490,
+258 silly audit report       url: 'https://github.com/advisories/GHSA-qpjv-v59x-3qc4',
+258 silly audit report       title: 'Next.js Race Condition to Cache Poisoning',
+258 silly audit report       severity: 'low',
+258 silly audit report       vulnerable_versions: '<14.2.24',
+258 silly audit report       cwe: [Array],
+258 silly audit report       cvss: [Object]
+258 silly audit report     },
+258 silly audit report     {
+258 silly audit report       id: 1105461,
+258 silly audit report       url: 'https://github.com/advisories/GHSA-3h52-269p-cp9r',
+258 silly audit report       title: 'Information exposure in Next.js dev server due to lack of origin verification',
+258 silly audit report       severity: 'low',
+258 silly audit report       vulnerable_versions: '>=13.0 <14.2.30',
+258 silly audit report       cwe: [Array],
+258 silly audit report       cvss: [Object]
+258 silly audit report     },
+258 silly audit report     {
+258 silly audit report       id: 1097295,
+258 silly audit report       url: 'https://github.com/advisories/GHSA-fr5h-rqp8-mj6g',
+258 silly audit report       title: 'Next.js Server-Side Request Forgery in Server Actions',
+258 silly audit report       severity: 'high',
+258 silly audit report       vulnerable_versions: '>=13.4.0 <14.1.1',
+258 silly audit report       cwe: [Array],
+258 silly audit report       cvss: [Object]
+258 silly audit report     }
+258 silly audit report   ],
+258 silly audit report   'next-auth': [
+258 silly audit report     {
+258 silly audit report       id: 1094922,
+258 silly audit report       url: 'https://github.com/advisories/GHSA-v64w-49xw-qq89',
+258 silly audit report       title: 'Possible user mocking that bypasses basic authentication',
+258 silly audit report       severity: 'moderate',
+258 silly audit report       vulnerable_versions: '<4.24.5',
+258 silly audit report       cwe: [Array],
+258 silly audit report       cvss: [Object]
+258 silly audit report     }
+258 silly audit report   ]
+258 silly audit report }
+259 silly packumentCache corgi:https://registry.npmjs.org/cookie cache-miss
+260 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+261 silly packumentCache corgi:https://registry.npmjs.org/next-auth cache-miss
+262 http cache https://registry.npmjs.org/cookie 82ms (cache hit)
+263 silly packumentCache corgi:https://registry.npmjs.org/cookie set size:22175 disposed:false
+264 http cache https://registry.npmjs.org/next-auth 84ms (cache hit)
+265 silly packumentCache corgi:https://registry.npmjs.org/next-auth set size:1804605 disposed:false
+266 http cache https://registry.npmjs.org/next 114ms (cache hit)
+267 silly packumentCache corgi:https://registry.npmjs.org/next set size:20658480 disposed:false
+268 silly packumentCache corgi:https://registry.npmjs.org/@sidebase%2fnuxt-auth cache-miss
+269 http cache https://registry.npmjs.org/@sidebase%2fnuxt-auth 3ms (cache hit)
+270 silly packumentCache corgi:https://registry.npmjs.org/@sidebase%2fnuxt-auth set size:140069 disposed:false
+271 silly ADD node_modules/@types/bcrypt
+272 silly ADD
+273 silly ADD
+274 silly ADD
+275 silly ADD
+276 silly ADD
+277 silly ADD
+278 silly ADD
+279 silly ADD
+280 silly ADD
+281 silly ADD
+282 silly ADD
+283 silly ADD
+284 silly ADD
+285 silly ADD
+286 silly ADD
+287 silly ADD
+288 silly ADD
+289 silly ADD
+290 silly ADD
+291 silly ADD
+292 silly ADD
+293 silly ADD
+294 silly ADD
+295 silly ADD
+296 silly ADD
+297 silly ADD
+298 silly ADD
+299 silly ADD
+300 silly ADD
+301 silly ADD
+302 silly ADD
+303 silly ADD
+304 silly ADD
+305 silly ADD
+306 silly ADD
+307 silly ADD
+308 silly ADD
+309 silly ADD
+310 silly ADD
+311 silly ADD
+312 silly ADD
+313 silly ADD
+314 silly ADD
+315 silly ADD
+316 silly ADD
+317 silly ADD
+318 silly ADD
+319 silly ADD
+320 silly ADD
+321 silly ADD
+322 silly ADD
+323 silly ADD
+324 silly ADD
+325 silly ADD
+326 silly ADD
+327 silly ADD
+328 silly ADD
+329 silly ADD
+330 silly ADD
+331 silly ADD
+332 silly ADD
+333 silly ADD
+334 silly ADD
+335 silly ADD
+336 silly ADD
+337 silly ADD
+338 silly ADD
+339 silly ADD
+340 silly ADD
+341 silly ADD
+342 silly ADD
+343 silly ADD
+344 silly ADD
+345 silly ADD
+346 silly ADD
+347 silly ADD
+348 silly ADD
+349 silly ADD
+350 silly ADD
+351 silly ADD
+352 silly ADD
+353 silly ADD
+354 silly ADD
+355 silly ADD
+356 silly ADD
+357 silly ADD
+358 silly ADD
+359 silly ADD
+360 silly ADD
+361 silly ADD
+362 silly ADD
+363 silly ADD
+364 silly ADD
+365 silly ADD
+366 silly ADD
+367 silly ADD
+368 silly ADD
+369 silly ADD
+370 silly ADD
+371 silly ADD
+372 silly ADD
+373 silly ADD
+374 silly ADD
+375 silly ADD
+376 silly ADD
+377 silly ADD
+378 silly ADD
+379 silly ADD
+380 silly ADD
+381 silly ADD
+382 silly ADD
+383 silly ADD
+384 silly ADD
+385 silly ADD
+386 silly ADD
+387 silly ADD
+388 verbose cwd D:\program\surrogacy-portal
+389 verbose os Windows_NT 10.0.26100
+390 verbose node v22.17.0
+391 verbose npm  v10.9.2
+392 verbose exit 0
+393 info ok

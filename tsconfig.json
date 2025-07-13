@@ -1,4 +1,20 @@
+// tsconfig.json  (根目录)
 {
-  // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  // 继承 Nuxt 自动生成的配置
+  "extends": "./.nuxt/tsconfig.json",
+
+  // 🔽 仅对 VS Code / TS Server 起作用，Nuxt 构建不受影响
+  "compilerOptions": {
+    // 让编辑器认识 import 路径别名
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+
+    // 推荐的最小 lib 设置
+    "target": "ES2020",
+    "moduleResolution": "Node",
+    "types": ["@types/node"]
+  }
 }
